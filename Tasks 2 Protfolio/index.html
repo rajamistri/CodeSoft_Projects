@@ -1,0 +1,312 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icon link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Remix icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Inter:wght@300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"> Developer <span>Raja.</span></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="top-btnn">
+        <a href="#" class="h-btn">Contact me</a>
+      </div>
+    </header>
+    <!-- hero section -->
+
+    <section class="hero" id="home">
+      <div class="main-content" data-aos="fade-in">
+        <h4>Hi, There!</h4>
+        <h1>I'm <span>Raja Mistri</span></h1>
+        <p>
+          I'm a Front-end Web Devloper & a UI/UX Designer with 2 years of
+          learning and 1 year of working experience. When I'm not working on
+          devlopment, you can often find me to relaxing in the hill stations.
+        </p>
+        <div class="social">
+          <a href="#"
+            ><i
+              class="ri-facebook-fill"
+              onclick="openSocialMedia('https://www.facebook.com/Myself.Raja.19')"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="ri-instagram-fill"
+              onclick="openSocialMedia('https://www.instagram.com/r__a__j____a/')"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="ri-linkedin-box-fill"
+              onclick="openSocialMedia('https://www.linkedin.com/in/rajamistri/')"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="ri-github-fill"
+              onclick="openSocialMedia('https://github.com/rajamistri')"
+            ></i
+          ></a>
+        </div>
+        <div class="main-btn">
+          <a href="#" class="btn btn2" onclick="downloadCV()">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About  -->
+    <section class="about" id="about">
+      <div class="about-img" data-aos="zoom-in-down">
+        <img src="Image/About.png" />
+      </div>
+
+      <div class="about-text" data-aos="zoom-in-up">
+        <h2>
+          I am Web <span>Designer</span> <br />
+          & Front-end Developer
+        </h2>
+        <div class="exp-area">
+          <p class="exp">
+            Speciality:
+            <span>Web Designer & Front-end Developer</span>
+          </p>
+          <p class="exp">
+            Address:
+            <span>Kolkata, West Bengal</span>
+          </p>
+          <p class="exp">
+            Email:
+            <span>raja333mistri@gmail.com</span>
+          </p>
+          <p class="exp">
+            Phone:
+            <span>+91 9064977898</span>
+          </p>
+        </div>
+
+        <a
+          href="#"
+          class="btn"
+          onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+        >
+          View All Project</a
+        >
+      </div>
+    </section>
+
+    <!-- Service -->
+
+    <section class="services" id="services">
+      <div class="center-text" data-aos="fade-down">
+        <h2>My <span>Services</span></h2>
+      </div>
+
+      <div class="services-content" data-aos="zoom-in-up">
+        <div class="box">
+          <img src="Image/s-1.svg" />
+          <h3>UI/UX Design</h3>
+          <p>
+            UI/UX design focuses on creating user-friendly interfaces and
+            enjoyable experiences for digital products and services.
+          </p>
+          <a href="#"> Download Now <i class="ri-arrow-right-line"></i> </a>
+        </div>
+
+        <div class="box">
+          <img src="Image/s-2.svg" />
+          <h3>Front-end Devlopment</h3>
+          <p>
+            Front-end web development involves creating and designing the user
+            interface and user experience of websites and web applications.
+          </p>
+          <a href="#"> Download Now <i class="ri-arrow-right-line"></i> </a>
+        </div>
+
+        <div class="box">
+          <img src="Image/s-3.svg" />
+          <h3>Logo Design</h3>
+          <p>
+            Logo design is the process of creating unique and memorable visual
+            symbols to represent a brand or business.
+          </p>
+          <a href="#"> Download Now <i class="ri-arrow-right-line"></i> </a>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="center-text" data-aos="fade-down">
+        <h2>My <span>Portfolio</span></h2>
+      </div>
+
+      <div class="Portfolio-content" data-aos="zoom-in-down">
+        <div class="row">
+          <img src="Image/port-1.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i
+                class="ri-github-fill"
+                onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+              ></i>
+            </div>
+          </div>
+          <h4>Personal Project <span>Car Rental Website</span></h4>
+        </div>
+
+        <div class="row">
+          <img src="Image/port-2.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i
+                class="ri-github-fill"
+                onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+              ></i>
+            </div>
+          </div>
+          <h4>Practice Project <span>Gym website</span></h4>
+        </div>
+
+        <div class="row">
+          <img src="Image/port-3.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i
+                class="ri-github-fill"
+                onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+              ></i>
+            </div>
+          </div>
+          <h4>Sample <span>Crypto exchange Website</span></h4>
+        </div>
+
+        <div class="row">
+          <img src="Image/port-4.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i
+                class="ri-github-fill"
+                onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+              ></i>
+            </div>
+          </div>
+          <h4>Practice <span>Ecomerce Website</span></h4>
+        </div>
+
+        <div class="row">
+          <img src="Image/port-5.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i
+                class="ri-github-fill"
+                onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+              ></i>
+            </div>
+          </div>
+          <h4>Online game <span>Tic Tac Toe</span></h4>
+        </div>
+
+        <div class="row">
+          <img src="Image/port-6.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i
+                class="ri-github-fill"
+                onclick="openSocialMedia('https://github.com/rajamistri?tab=repositories')"
+              ></i>
+            </div>
+          </div>
+          <h4>Sample <span>Stock exchange website</span></h4>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="center-text" data-aos="fade-down">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-form" data-aos="zoom-in-up">
+        <form action="">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Aaddress" required />
+          <textarea name="" id="" cols="30" rows="10" required></textarea>
+          <input
+            type="Submit"
+            name=""
+            value="Send Message"
+            class="send-btn"
+            id="send-btn"
+            required
+          />
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="copyright">
+        <p>2023 Raja Mistri, All Rights Reserved.</p>
+      </div>
+
+      <a href="#home" class="scroll-top">
+        <i class="ri-arrow-up-double-line"></i>
+      </a>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+  </body>
+</html>
